@@ -11,7 +11,7 @@ public class writeinafile {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the text that you want to add in the text file");
-		Data = sc.next();
+		Data = sc.nextLine();
 
 		try {
 			FileWriter Text = new FileWriter("java.txt");
